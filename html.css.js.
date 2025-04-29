@@ -1,219 +1,202 @@
-<div id="topo" class="container">
-  <h1>Manual do Usuário - Clínica P+</h1>
-  <p>👋 <strong>Seja bem-vindo ao site da Clínica P+!</strong> Preparamos este manual com carinho para te ajudar a navegar e aproveitar todos os recursos disponíveis.</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manual do Usuário - Clínica P+</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2; /* Fundo geral cinza claro */
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
 
-  <div class="section">
-    <h2>📑 Índice</h2>
-    <ul>
-      <li><a href="#acesso-ao-site">1. Acesso ao Site</a></li>
-      <li><a href="#pagina-inicial">2. Página Inicial</a></li>
-      <li><a href="#servicos-oferecidos">3. Serviços Oferecidos</a></li>
-      <li><a href="#agendamento-online">4. Agendamento Online</a></li>
-      <li><a href="#equipe-especializada">5. Equipe Especializada</a></li>
-      <li><a href="#contato-e-localizacao">6. Contato e Localização</a></li>
-      <li><a href="#duvidas-frequentes">7. Dúvidas Frequentes (FAQ)</a></li>
-      <li><a href="#politica-de-privacidade">8. Política de Privacidade</a></li>
-      <li><a href="#suporte-tecnico">9. Suporte Técnico</a></li>
-    </ul>
-  </div>
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #ffffffcc; /* Fundo branco com leve transparência */
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
 
-  <div id="acesso-ao-site" class="section">
-    <h2>1. Acesso ao Site</h2>
-    <p>🌐 Para acessar o site da Clínica P+, basta abrir seu navegador e digitar <strong>www.clinicapmais.com.br</strong>. Verifique se sua conexão com a internet está ativa.</p>
-    <p><a href="#topo">⬆ Voltar ao topo</a></p>
-  </div>
+    h1, h2 {
+      color: #4a4a4a;
+      margin-bottom: 16px;
+    }
 
-  <div id="pagina-inicial" class="section">
-    <h2>2. Página Inicial</h2>
-    <p>🏠 A página inicial é o ponto de partida para explorar tudo que a Clínica P+ oferece. Nela, você encontra atalhos para agendar consultas, conhecer os serviços e muito mais.</p>
-    <p><a href="#topo">⬆ Voltar ao topo</a></p>
-  </div>
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+    }
 
-  <div id="servicos-oferecidos" class="section">
-    <h2>3. Serviços Oferecidos</h2>
-    <p>🩺 Oferecemos uma variedade de serviços como:</p>
-    <ul>
-      <li>Consultas veterinárias</li>
-      <li>Vacinação</li>
-      <li>Cirurgias</li>
-      <li>Exames laboratoriais</li>
-      <li>Orientação especializada para cuidados com o pet</li>
-    </ul>
-    <p><a href="#topo">⬆ Voltar ao topo</a></p>
-  </div>
+    h2 {
+      font-size: 1.6em;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
 
-  <div id="agendamento-online" class="section">
-    <h2>4. Agendamento Online</h2>
-    <p>📅 Agendar uma consulta é simples! Acesse a seção <strong>“Agendar Consulta”</strong>, preencha os dados do seu pet e escolha a data e horário desejados. Você receberá uma confirmação por e-mail ou WhatsApp.</p>
-    <p><a href="#topo">⬆ Voltar ao topo</a></p>
-  </div>
+    p, li {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
 
-  <div id="equipe-especializada" class="section">
-    <h2>5. Equipe Especializada</h2>
-    <p>👩‍⚕️ Conheça nossa equipe na aba <strong>“Nossa Equipe”</strong>. Nossos profissionais são altamente qualificados e apaixonados pelo cuidado com os animais.</p>
-    <p><a href="#topo">⬆ Voltar ao topo</a></p>
-  </div>
+    ul {
+      padding-left: 20px;
+    }
 
-  <div id="contato-e-localizacao" class="section">
-    <h2>6. Contato e Localização</h2>
-    <p>📍 Em <strong>“Contato”</strong>, você encontra todas as formas de falar com a gente: telefone, WhatsApp e nosso endereço completo com mapa.</p>
-    <p><a href="#topo">⬆ Voltar ao topo</a></p>
-  </div>
+    a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+    }
 
-  <div id="duvidas-frequentes" class="section">
-    <h2>7. Dúvidas Frequentes (FAQ)</h2>
-    <p>❓ Na seção de <strong>FAQ</strong>, respondemos às perguntas mais comuns, como:</p>
-    <ul>
-      <li>Quais os horários de atendimento?</li>
-      <li>Quais formas de pagamento são aceitas?</li>
-      <li>Como remarcar ou cancelar uma consulta?</li>
-    </ul>
-    <p><a href="#topo">⬆ Voltar ao topo</a></p>
-  </div>
+    a:hover {
+      text-decoration: underline;
+      color: #555;
+    }
 
-  <div id="politica-de-privacidade" class="section">
-    <h2>8. Política de Privacidade</h2>
-    <p>🔐 Sua segurança é prioridade. Em <strong>“Política de Privacidade”</strong>, explicamos como protegemos seus dados e como eles são utilizados com responsabilidade.</p>
-    <p><a href="#topo">⬆ Voltar ao topo</a></p>
-  </div>
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 12px;
+      background-color: #eaeaea; /* Fundo das seções em cinza claro */
+      transition: background-color 0.3s ease;
+    }
 
-  <div id="suporte-tecnico" class="section">
-    <h2>9. Suporte Técnico</h2>
-    <p>🛠️ Se tiver qualquer dificuldade técnica ao usar o site, fale com nosso time de suporte pelo e-mail: <strong>suporte@clinicapmais.com.br</strong>.</p>
-    <p><a href="#topo">⬆ Voltar ao topo</a></p>
-  </div>
-</div>
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9fb;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
+    .section:hover {
+      background-color: #dedede;
+    }
 
-.container {
-  max-width: 900px;
-  margin: 40px auto;
-  background-color: #fff;
-  padding: 40px;
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-}
+    #topo a {
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 0.95em;
+      background-color: #555;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
 
-h1, h2 {
-  color: #007b83;
-  margin-bottom: 16px;
-}
+    #topo a:hover {
+      background-color: #333;
+    }
 
-h1 {
-  font-size: 2.5em;
-  text-align: center;
-}
-
-h2 {
-  font-size: 1.6em;
-  border-bottom: 2px solid #e0f7f9;
-  padding-bottom: 5px;
-  margin-top: 40px;
-}
-
-p, li {
-  font-size: 1.1em;
-  line-height: 1.6;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-a {
-  color: #007b83;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #00a1ab;
-}
-
-.section {
-  margin-bottom: 30px;
-  padding: 20px;
-  border-radius: 12px;
-  background-color: #f5fdfd;
-  transition: background-color 0.3s ease;
-}
-
-.section:hover {
-  background-color: #e7fafa;
-}
-
-#topo a {
-  display: inline-block;
-  margin-top: 20px;
-  font-size: 0.95em;
-  background-color: #007b83;
-  color: white;
-  padding: 8px 14px;
-  border-radius: 8px;
-  transition: background-color 0.3s;
-}
-
-#topo a:hover {
-  background-color: #00a1ab;
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
-  h2 {
-    font-size: 1.4em;
-  }
-}
-document.addEventListener("DOMContentLoaded", () => {
-  const topoBtn = document.getElementById("topo-btn");
-
-  // Função para mostrar ou esconder o botão de "voltar ao topo"
-  const toggleTopoBtn = () => {
-    topoBtn.style.display = window.scrollY > 300 ? "block" : "none";
-  };
-
-  // Debounce para otimizar desempenho ao rolar
-  let scrollTimeout;
-  window.addEventListener("scroll", () => {
-    clearTimeout(scrollTimeout);
-    scrollTimeout = setTimeout(toggleTopoBtn, 100);
-  });
-
-  // Rolar suavemente até o topo ao clicar no botão
-  topoBtn.addEventListener("click", () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  });
-
-  // Rolar suavemente até seções ao clicar nos links do índice
-  const smoothLinks = document.querySelectorAll('a[href^="#"]');
-  smoothLinks.forEach((link) => {
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      const targetId = link.getAttribute("href");
-      const targetSection = document.querySelector(targetId);
-
-      if (targetSection) {
-        targetSection.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
       }
-    });
-  });
-});
+
+      h1 {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.4em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="topo" class="container">
+    <h1>Manual do Usuário - Clínica P+</h1>
+    <p>👋 <strong>Seja bem-vindo ao site da Clínica P+!</strong> Preparamos este manual com carinho para te ajudar a navegar e aproveitar todos os recursos disponíveis.</p>
+
+    <div class="section">
+      <h2>📑 Índice</h2>
+      <ul>
+        <li><a href="#acesso-ao-site">1. Acesso ao Site</a></li>
+        <li><a href="#pagina-inicial">2. Página Inicial</a></li>
+        <li><a href="#servicos-oferecidos">3. Serviços Oferecidos</a></li>
+        <li><a href="#agendamento-online">4. Agendamento Online</a></li>
+        <li><a href="#equipe-especializada">5. Equipe Especializada</a></li>
+        <li><a href="#contato-e-localizacao">6. Contato e Localização</a></li>
+        <li><a href="#duvidas-frequentes">7. Dúvidas Frequentes (FAQ)</a></li>
+        <li><a href="#politica-de-privacidade">8. Política de Privacidade</a></li>
+        <li><a href="#suporte-tecnico">9. Suporte Técnico</a></li>
+      </ul>
+    </div>
+
+    <div id="acesso-ao-site" class="section">
+      <h2>1. Acesso ao Site</h2>
+      <p>🌐 Para acessar o site da Clínica P+, basta abrir seu navegador e digitar <strong>www.clinicapmais.com.br</strong>. Verifique se sua conexão com a internet está ativa.</p>
+      <p><a href="#topo">⬆ Voltar ao topo</a></p>
+    </div>
+
+    <div id="pagina-inicial" class="section">
+      <h2>2. Página Inicial</h2>
+      <p>🏠 A página inicial é o ponto de partida para explorar tudo que a Clínica P+ oferece. Nela, você encontra atalhos para agendar consultas, conhecer os serviços e muito mais.</p>
+      <p><a href="#topo">⬆ Voltar ao topo</a></p>
+    </div>
+
+    <div id="servicos-oferecidos" class="section">
+      <h2>3. Serviços Oferecidos</h2>
+      <p>🩺 Oferecemos uma variedade de serviços como:</p>
+      <ul>
+        <li>Consultas veterinárias</li>
+        <li>Vacinação</li>
+        <li>Cirurgias</li>
+        <li>Exames laboratoriais</li>
+        <li>Orientação especializada para cuidados com o pet</li>
+      </ul>
+      <p><a href="#topo">⬆ Voltar ao topo</a></p>
+    </div>
+
+    <div id="agendamento-online" class="section">
+      <h2>4. Agendamento Online</h2>
+      <p>📅 Agendar uma consulta é simples! Acesse a seção <strong>“Agendar Consulta”</strong>, preencha os dados do seu pet e escolha a data e horário desejados. Você receberá uma confirmação por e-mail ou WhatsApp.</p>
+      <p><a href="#topo">⬆ Voltar ao topo</a></p>
+    </div>
+
+    <div id="equipe-especializada" class="section">
+      <h2>5. Equipe Especializada</h2>
+      <p>👩‍⚕️ Conheça nossa equipe na aba <strong>“Nossa Equipe”</strong>. Nossos profissionais são altamente qualificados e apaixonados pelo cuidado com os animais.</p>
+      <p><a href="#topo">⬆ Voltar ao topo</a></p>
+    </div>
+
+    <div id="contato-e-localizacao" class="section">
+      <h2>6. Contato e Localização</h2>
+      <p>📍 Em <strong>“Contato”</strong>, você encontra todas as formas de falar com a gente: telefone, WhatsApp e nosso endereço completo com mapa.</p>
+      <p><a href="#topo">⬆ Voltar ao topo</a></p>
+    </div>
+
+    <div id="duvidas-frequentes" class="section">
+      <h2>7. Dúvidas Frequentes (FAQ)</h2>
+      <p>❓ Na seção de <strong>FAQ</strong>, respondemos às perguntas mais comuns, como:</p>
+      <ul>
+        <li>Quais os horários de atendimento?</li>
+        <li>Quais formas de pagamento são aceitas?</li>
+        <li>Como remarcar ou cancelar uma consulta?</li>
+      </ul>
+      <p><a href="#topo">⬆ Voltar ao topo</a></p>
+    </div>
+
+    <div id="politica-de-privacidade" class="section">
+      <h2>8. Política de Privacidade</h2>
+      <p>🔐 Sua segurança é prioridade. Em <strong>“Política de Privacidade”</strong>, explicamos como protegemos seus dados e como eles são utilizados com responsabilidade.</p>
+      <p><a href="#topo">⬆ Voltar ao topo</a></p>
+    </div>
+
+    <div id="suporte-tecnico" class="section">
+      <h2>9. Suporte Técnico</h2>
+      <p>🛠️ Se tiver qualquer dificuldade técnica ao usar o site, fale com nosso time de suporte pelo e-mail: <strong>suporte@clinicapmais.com.br</strong>.</p>
+      <p><a href="#topo">⬆ Voltar ao topo</a></p>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const smoothLinks = document.querySelectorAll('a[href^="#"]');
+      smoothLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const targetId = link.getAttribute("href");
+          const targetSection = document.querySelector(targetId);
+          if (targetSection) {
+            targetSection.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
